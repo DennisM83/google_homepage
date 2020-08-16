@@ -16,27 +16,34 @@ nav {
 ul {
     list-style-type: none;
     border: 1px solid red;
+    position: relative;  
 }
 
 li {
-    justify-content: center;
-    align-self: center;
-    color: red;
+    display: inline;
+    padding: 8px;
+}
+
+.nav-section-one {
+    right: 760px;
 }
 
 form {
     border: 1px solid red;
 }
+
 h1 {
     border: 1px solid red;
-    justify-items: center;
-    align-content: center;
 }
 
 .container {
     display: flex;
     border: 1px solid red;
     justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    align-content: space-between;
 }
 
 #searchfield {
