@@ -5,6 +5,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+    display: flex;
+}
+
 #searchfield {
     border-radius: 15px;
 }
