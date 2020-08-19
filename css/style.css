@@ -11,12 +11,14 @@ body {
 
 nav {
     border: 1px solid red;
+    padding-top: 20px;
 }
 
 ul {
     list-style-type: none;
     border: 1px solid red;
-    position: relative;  
+    margin: 0;
+    padding: 0;
 }
 
 li {
@@ -25,7 +27,32 @@ li {
 }
 
 .nav-section-one {
-    right: 760px;
+    float: left;
+}
+
+.nav-section-two {
+    float: right;
+}
+
+.second {
+    position: relative;
+    right: 140px;
+}
+img {
+    position: relative;
+    bottom: 30px;
+}
+
+#tile_button {
+    width: 20px; 
+    height: 20px;
+}
+
+#name_icon {
+    width: 32px; 
+    height: 32px;
+     
+    padding-left: 10px;
 }
 
 form {
@@ -37,13 +64,7 @@ h1 {
 }
 
 .container {
-    display: flex;
     border: 1px solid red;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    flex-direction: column;
-    align-content: space-between;
 }
 
 #searchfield {
