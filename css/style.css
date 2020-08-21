@@ -9,16 +9,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
 nav {
-    border: 1px solid red;
     padding-top: 20px;
+    border: 1px solid red;
 }
 
 ul {
     list-style-type: none;
-    border: 1px solid red;
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
 
 li {
@@ -34,13 +40,15 @@ li {
     float: right;
 }
 
-.second {
+.second-list {
     position: relative;
-    right: 140px;
+    right: 90px;
 }
+
 img {
     position: relative;
     bottom: 30px;
+    left: 50px;
 }
 
 #tile_button {
@@ -51,24 +59,15 @@ img {
 #name_icon {
     width: 32px; 
     height: 32px;
-     
+    
     padding-left: 10px;
 }
 
-form {
-    border: 1px solid red;
-}
-
-h1 {
-    border: 1px solid red;
-}
-
-.container {
-    border: 1px solid red;
-}
-
 #searchfield {
-    border-radius: 15px;
+    border-radius: 24px;
+    width: 582px;
+    border: 1px solid #dfe1e5;
+    height: 44px;
 }
 
 .button {
