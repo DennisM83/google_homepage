@@ -11,7 +11,6 @@ body {
 }
 
 nav, main, footer {
-    border: 1px solid red;
     display: grid;
     grid-auto-flow: column;
 }
@@ -27,6 +26,22 @@ a {
 
 .nav-items-two {
     justify-self: end;
+}
+
+#tile_button {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#name_icon {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    padding-right: 25px;
 }
 
 .main-items {
@@ -49,7 +64,9 @@ a {
 }
 
 .search-buttons {
-    justify-self: end;
+    position: relative;
+    left: 150px;
+    top: 30px;
 }
 
 .button {
