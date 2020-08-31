@@ -46,7 +46,7 @@ a {
 
 .main-items {
     justify-self: center;
-    padding: 300px;
+    padding: 300px 300px 320px 300px;
 }
 
 .logo {
@@ -84,5 +84,18 @@ a {
 }
 
 footer {
+    background-color: #f2f2f2;
     color: var(--butAndFootColor);
+    padding-bottom: 15px;
+    align-self: center;
+}
+
+.footer-items-one, .footer-items-two {
+    font-size: 14px;
+}
+
+.footer-items-two {
+    justify-self: end;
+    padding-right: 20px;
+    align-self: start;
 }
